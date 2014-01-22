@@ -12,7 +12,7 @@
      <p>Before going back to school, I worked at the IBM Interaction Design Center in Toronto as an Accessibility Specialist where I evaluated the accessibility of various technologies, advised companies about implementing accessibility policies, and provided accessibility training to developers.  In the past, I have also worked as a software developer.</p>
      <p>I hold a Bachelor of Science in Computer Science from the University of Calgary where I focused my studies on graphics and human-computer interaction.  I also completed many courses in psychology and pure mathematics.</p>
      <p>In terms of research, I am interested in the use of technologies in museums, social media design and uses, and issues of privacy and surveillance.  Outside of work, I enjoy traveling, hiking, skiing, playing scrabble, and practising the piano.</p>
-     <p>You can <span class="highlight">find me</span> on <a href="http://www.linkedin.com/in/oliveau">LinkedIn</a> or <span class="highlight">contact me</span> at olivejau [at] yahoo.com.</p>
+     <p>You can <span class="highlight">find me</span> on <a href="http://www.linkedin.com/in/oliveau">LinkedIn</a> or <span class="highlight">contact me</span> at olive.w.au [at] gmail.com.</p>
     </div>
     <div style="margin: 16px 0 0 0; float:left">
       <img width="250" src="images/about_me_profile.jpg">
