@@ -1,0 +1,63 @@
+div.image_frame a:link, #div.image_frame a:visited{
+   color: #000000;
+   font-size: 16px;
+   font-family: 'century gothic', 'lucinda grande', Arial, verdana, helvetica, sans-serif;   
+   text-decoration: none;
+}
+
+div.image_frame a { 
+   color: #000000;
+   font-size: 16px;
+   font-family: 'century gothic', 'lucinda grande', Arial, verdana, helvetica, sans-serif;   
+}
+
+div.image_frame a:hover
+{
+   color: #E18700;
+   font-size: 16px;
+   font-family: 'century gothic', 'lucinda grande', Arial, verdana, helvetica, sans-serif;   
+}
+
+div.image_frame{
+   margin: 10px 0px 10px 10px;
+   padding: 10px;
+   width: 253px;
+   height: 230px;
+   background-color: #FFFFFF;
+   overflow: hidden;
+   float: left;
+   /*begin shadow*/
+   -moz-box-shadow: 2px 2px 12px #E3DAC9;
+   -webkit-box-shadow: 2px 2px 12px #E3DAC9;
+   box-shadow: 2px 2px 12px #E3DAC9;
+   /* For IE 8 */
+   -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=12, Direction=135, Color='#E3DAC9')";
+   /* For IE 5.5 - 7 */
+   filter: progid:DXImageTransform.Microsoft.Shadow(Strength=12, Direction=135, Color='#E3DAC9');
+}
+
+div.image_frame:hover{
+   /*begin shadow*/
+   -moz-box-shadow: 2px 2px 24px #A9A9A9;
+   -webkit-box-shadow: 2px 2px 24px #A9A9A9;
+   box-shadow: 2px 2px 24px #A9A9A9;
+   /* For IE 8 */
+   -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=24, Direction=135, Color='#A9A9A9')";
+   /* For IE 5.5 - 7 */
+   filter: progid:DXImageTransform.Microsoft.Shadow(Strength=24, Direction=135, Color='#A9A9A9');
+}
+
+div.frame_image{
+   overflow: hidden;
+   border: 0;
+   width: 240px;
+   margin: 0 auto;
+}
+
+div.frame_caption{
+}
+
+div.image_frame_when{
+   color: #7F7F7F;
+   font-size: 10pt;
+}

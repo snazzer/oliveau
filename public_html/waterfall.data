@@ -1,0 +1,32 @@
+<?
+$waterfall_1 = array(
+   'title'=>'Description',
+   'data'=>'<p>Greenberg & Fitchett (2001) describe a set of user interface software APIs that map to physical
+hardware. This technology, named phidgets, is intended to be easy to use so that designers can
+build prototypes without requiring the education of an engineer. For our final project, we were
+tasked to use some of these phidgets to build a technology.</p>
+<p>For my project, I built a Waterfall harp that plays musical chords as the water is \'strummed\'.
+I used a commercial appliance that circulated water to make a continuous waterfall. In its
+base were backlights. I added three light sensors at its top and used clay to funnel water so
+that each sensor had a water rivulet beneath it. I programmed the backend software so that a
+musical chord would play whenever a light sensor was blocked for a small time duration. Thus,
+as people \'strummed\' the water by moving their fingers through the rivulets and blocking the
+sensors, musical chords corresponding to each rivulet would play.</p>
+    ',
+   'images'=>array(
+     '1'=>'http://www.youtube.com/watch?v=bMc38Nb57Fc'
+   )
+);
+
+$waterfall_2 = array(
+    'title'=>'',
+    'data'=>'<br><b>Designer:</b> Olive Au.
+        <br><b>Project Referenced in Publication:</b> <a href="http://dl.acm.org/citation.cfm?id=502388">Greenberg, S. and Fitchett, C. (2001). Phidgets. Video Proceedings of the ACM UIST 2001 14th</a>'
+);
+   
+$waterfall_info = array(
+    'title'=>'Waterfall Harp',
+    'intro'=>'<h3>March 2001</h3>',
+    'items'=>array($waterfall_1,$waterfall_2) 
+   );
+?>

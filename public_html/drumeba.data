@@ -1,0 +1,34 @@
+<?
+$drumeba_1 = array(
+   'title'=>'Problem',
+   'data'=>'This project is being completed in collaboration Drumeba Inc. Drumeba, a drumming
+toy, is designed to encourage and teach social interaction skills to children with autism. The
+owners (and developers) of Drumeba requested that the University of Toronto conduct a
+research study to assess the effectiveness of the drumming toy. In addition, a request was
+made to assess the usability of the product.',
+   'images'=>array(
+     '1'=>'Drumeba/drumeba_icon.jpg'
+   )
+);
+
+$drumeba_2 = array(
+   'title'=>'Ongoing Research',
+   'data'=>'A test plan has been developed and outlines: the recruitment of participants; a user trial of
+the drumming toy including questionnaires, journals, observer surveys, video capture
+items, set up instructions; and a product evaluation trial including the necessary survey
+instruments.
+<br>In collaboration with the Geneva Center, we will be recruiting 10 to 12 participants for a 4 week trial commencing at the end of April 2012.'
+);
+
+$drumeba_3 = array(
+    'title'=>'',
+    'data'=>'<b>Role:</b>Research Assistant, University of Toronto
+             <br><b>Team:</b> Dr. Rhonda McEwen and Olive Au (University of Toronto), Dee Balkissoon and Orla Garriques (Drumeba Inc.)',
+);
+
+$drumeba_info = array(
+    'title'=>'Drumeba Inc.',
+    'intro'=>'<h3>August 2011 - Present</h3>',
+    'items'=>array($drumeba_1,$drumeba_2,$drumeba_3)  
+   );
+?>

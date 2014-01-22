@@ -1,0 +1,39 @@
+ul.navlist
+{
+   padding: 0;
+   margin: 0;
+   margin-right: 10px;
+   white-space: nowrap;
+}
+
+ul.navlist li
+{
+   display: inline;
+   padding: 0;
+   margin-left: 3px;
+   list-style-type: none;
+   font-family: 'century gothic', 'lucinda grande', Arial, verdana, helvetica, sans-serif;   
+}
+
+ul.navlist a { 
+   color: #000000;
+   font-family: 'century gothic', 'lucinda grande', Arial, verdana, helvetica, sans-serif;   
+   font-size: 20px;
+}
+
+ul.navlist a:link, #navlist a:visited
+{
+   color: #000000;
+   font-family: 'century gothic', 'lucinda grande', Arial, verdana, helvetica, sans-serif;   
+   text-decoration: none;
+}
+
+ul.navlist a.selected{
+   color: #E18700;
+}
+
+ul.navlist a:hover
+{
+   color: #E18700;
+   font-family: 'century gothic', 'lucinda grande', Arial, verdana, helvetica, sans-serif;   
+}

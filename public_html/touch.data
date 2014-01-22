@@ -1,0 +1,64 @@
+<?
+$touch_1 = array(
+   'title'=>'Problem',
+   'data'=>'For our final project in the ubiquitous computing course, my teammate and I decided to 
+   investigate how current technologies could be enhanced to better support the social interactions 
+   of families separated by distance.  In order to answer this question, we first had to understand 
+   how adult children who have moved to a different city make use of existing technologies to 
+   interact with their families.',
+   'images'=>array(
+     '1'=>'touch/problem.jpg'
+   )
+);
+   
+$touch_2 = array(
+   'title'=>'The Ethnographic Approach',
+   'data'=>'We wanted to collect real data about these long distance interactions including information 
+   such as the date and time of the interactions, the medium used for the interactions, the content of the 
+   conversations, and how the interactions were initiated.  As such, we decided to ask our participants to 
+   keep a diary of each interaction over a 2 week period in order to collect in-situ data.  An additional 
+   benefit of the diary method was that it would sensitize our participants to the topic under study and 
+   reduce the recall bias during the debriefing semi-structured interview.  Since we collected the diaries 
+   before the interviews, we were able to analyze the data for patterns and narrow the focus of the interview questions.',
+   'images'=>array(
+      '1'=>'touch/diary.jpg',
+   )
+);
+
+$touch_3 = array(
+   'title'=>'Organizing the Raw Data',
+   'data'=>'An affinity diagram was developed using the data collected from the interviews.  We noticed many 
+   emergent themes that we had not previously anticipated including issues of availability, awareness, and forgetfulness.',
+   'images'=>array(
+      '1'=>'touch/affinity.jpg'
+   )
+);
+
+$touch_4 = array(
+   'title'=>'A Vision for the Future',
+   'data' => 'We discovered that there are many potential ways in which existing technologies could be enhanced to support 
+   the social interactions of families separated by distance and include some of the following ideas:
+      <ul>
+      <li>Prompts based on time or content that reminds users to initiate an interaction with a family member.</li>
+      <li>Facilitate a user’s awareness of a loved one’s availability.  This could entail integration of calendaring 
+      functionality with instant messaging services or using physical sensors placed around a house to detect a 
+      loved one’s presence in a ‘communication available’ zone.</li>
+      <li>Seamless integration of various communication platforms including messaging, 
+      phone, email such that a loved one’s availability is always evident.</li>
+   </ul>'
+);
+
+$touch_5 = array(
+  'title'=>'',
+   'data' => '<b>Team: </b> Olive Au and Elizabeth Patitsas<br/>
+    <b>Role: </b> I participated in all aspects of the design.<br/>
+    <b>Final Paper: </b> <a href="images/touch/ubicomp_paper.pdf">ubicomp_paper.pdf</a>'
+);
+
+
+$touch_info = array(
+    'title'=>'Staying in Touch: How Families Communicate',
+    'intro'=>'<h3>September 2011 - December 2011</h3>',
+    'items'=>array($touch_1,$touch_2,$touch_3,$touch_4,$touch_5)    
+   );
+?>

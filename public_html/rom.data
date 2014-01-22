@@ -1,0 +1,84 @@
+<?
+$rom_1 = array(
+   'title'=>'Problem',
+   'data'=>'This project is being completed in collaboration with the Royal Ontario Museum\'s
+social media team. The original scope was quite open since the social media team did not
+have any particular direction. They simply wanted a larger \'technology\' presence. As such, I
+conducted a literature review and an analysis of the ROM\'s past surveys in order to come with
+more focused suggestions. Based on the analysis, it was decided that a mobile tour guide would
+be an interesting endeavor to undertake.',
+   'images'=>array(
+     '1'=>'ROM/problem.jpg'
+   )
+);
+   
+$rom_2 = array(
+   'title'=>'Rapid Ethnography',
+   'data'=>'Several ethnographic observation sessions were conducted over a 2 week period in
+order to understand how people interacted with each other, the way they selected
+exhibits, and how they toured the museum. These observations helped me narrow the
+focus of the diary and interview questions.',
+   'images'=>array(
+      '1'=>'ROM/ethno1.jpg',
+      '2'=>'ROM/ethno2.jpg',
+      '3'=>'ROM/ethno3.jpg',
+   )
+);
+
+$rom_3 = array(
+   'title'=>'ESM',
+   'data'=>'An electronic sampling method (ESM) method along with a paper diary was used in
+order to gather in-situ data from participants. This allowed me to understand exactly
+what kind of information the participant was seeking at the moment that they were
+paged. This also sensitized them to thinking about questions that I would ask during the
+semi-structured interview',
+   'images'=>array(
+      '1'=>'ROM/ESM.jpg'
+   )
+);
+
+$rom_4 = array(
+   'title'=>'Organizing the Raw Data',
+   'data' => 'The affinity diagram uncovered many interesting themes about the different touring
+styles of visitors, the overwhelming desire to share an interesting artifact with others
+over social media or email, and the use of picture taking in order to remember the
+artifact for later research.',
+   'images'=>array(
+      '1'=>'ROM/affinity1.jpg'
+   )
+);
+
+$rom_5 = array(
+   'title'=>'Wireframes',
+   'data'=>'I decided to focus my design on a specific target user group -
+visitors who want recommendations and prefer structure during their
+visit. As such, the wireframes focused on providing visitors with an
+interface that allows them to see where and what kind of galleries are
+available, where the newest exhibits are located, and electronic tours
+that are available.',
+   'images'=>array(
+      '1'=>'ROM/wireframe1.jpg',
+      '2'=>'ROM/wireframe2.jpg',
+      '3'=>'ROM/wireframe3.jpg'
+   )
+);
+
+$rom_6 = array(
+   'title'=>'Future work', 
+   'data' =>'A high-fidelity prototype of the
+mobile tour guide will be developed such that usability tests can be
+conducted. Wireframes will be modified to reflect the findings from
+the usability tests and delivered to the social media team.'
+);
+
+$rom_7 = array(
+   'title'=> '', 
+   'data' => '<b>Designer:</b> Olive Au'
+);
+
+$rom_info = array(
+    'title'=>'Royal Ontario Museum Design Project',
+    'intro'=>'<h3>September 2011 - Present</h3>',
+    'items'=>array($rom_1,$rom_2,$rom_3,$rom_4,$rom_5,$rom_6,$rom_7)
+);
+?>
