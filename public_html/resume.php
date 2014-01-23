@@ -159,20 +159,20 @@ Framework'
 
    $education = array(
                    array(
-                      'title'=>'Master of Information',
-                      'summary'=>'',
-                      'when'=>'Sept. 2010 - Present',
+                      'title'=>'University of Toronto',
+                      'item_line'=>'',
+                      'when'=>'2012',
                       'where'=>'',
                       'item_list'=>array(),
-                      'item_line'=>'University of Toronto, Toronto, Ontario'
+                      'summary'=>'Master of Information, Beta Pi Mu'
                    ),
                    array(
-                     'title'=>'Bachelor of Science in Computer Science',
-                     'summary'=>'',
+                     'title'=>'University of Calgary',
+                     'item_line'=>'',
                      'where'=>'',
                      'when'=>'2003',
                      'item_list'=>array(),
-                     'item_line'=>'University of Calgary, Calgary, Alberta'
+                     'summary'=>'Bachelor of Science in Computer Science',
                    )
                 );
 
@@ -222,14 +222,14 @@ for ($k = 0; $k < count($all_keys); $k++){
 ?>
             </div> 
 
-            <div style="float: left; width: 600px; margin: 0 0 10px 0;">
-            <span class="resume_what"><? echo $it['title'] ?></span>      
+            <div style="float: left; width: 600px; margin: 0 0 10px 0;<? if ($i != 0) echo 'padding-top: 15px;'?>" >
+            <span class="resume_what" > <? echo $it['title'] ?></span>      
             <span class="resume_where"><? if ($it['where']!='' ){echo '@ '.$it['where'];} ?>
             </span>
 
             <div class="resume_text">
             <? if ($it['when'] != ''){ ?>
-            <div class="resume_when"><? echo $it['when'] ?></div>
+            <div class="resume_when" <? if ($it['summary'] == '') echo 'style="padding-bottom: 0px;"'; ?> ><? echo $it['when'] ?></div>
             <? } ?>
             <? if ($it['summary'] != ''){ ?>
             <div class="resume_summary"><? echo $it['summary'] ?></div>
@@ -237,6 +237,8 @@ for ($k = 0; $k < count($all_keys); $k++){
             <? echo $it['item_line']; ?>
 
 <? if (count($it['item_list']) > 0) { ?>
+            <div class="resume_list">
+               Activities:
                <ul class="resume_list">
 <?
       for ($j = 0; $j < count($it['item_list']); $j++){
@@ -247,6 +249,7 @@ for ($k = 0; $k < count($all_keys); $k++){
       }
 ?>
                </ul>
+            </div>
 <? } ?>
             </div>
          </div>
