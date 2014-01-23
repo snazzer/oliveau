@@ -1,12 +1,11 @@
-div.resume_lhc{
-    width: 100px;
-    color :#E18700;
-    height: 100%;
-    font-weight: bold;
-    font-size: 15pt;
-    text-align:left;
-    float:left;
-    padding: 0 0 8px 0;
+div.resume_section{
+   float: left;
+   width: 160px;
+   text-align: left;
+   padding: 0 15px 0 0;
+   color :#E18700;
+   font-weight: bold;
+   font-size: 15pt;
 }
 
 div.work_item{
@@ -16,6 +15,7 @@ div.work_item{
 ul.resume_list{
    margin: 0 0 0 0;
    padding-left: 1em;
+   padding-top: 15px;
    list-style-type: circle;
 }
 
@@ -27,14 +27,13 @@ span.resume_where{
 }
 
 div.resume_when{
-   float: left;
-   width: 160px;
-   text-align: left;
-   padding: 0 15px 0 0;
+   padding: 0px 0px 15px 0px;
+}
+
+div.resume_summary{
 }
 
 div.resume_text{
-
 }
 
 div.resume_rhc{

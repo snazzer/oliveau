@@ -8,80 +8,130 @@
 <body>
     <?include 'page_top.php'?>
 <?
+   $objective = array(
+       array( 
+              'title'=>'', 
+              'summary'=>'I aim to design experiences that better reflect the real practices and needs of people by uncovering
+how technologies are used in everyday life.',
+              'where'=>'',
+              'when'=>'', 
+              'item_list'=>array(),
+              'item_line'=>'',
+            ),
+       ); 
    $work = array(
        array( 
-              'title'=>'Accessibility Specialist', 
-              'where'=>'IBM GBS - Interaction Design, Toronto', 
-              'when'=>'Apr. 2007 - Present', 
+              'title'=>'Information Architect', 
+              'summary'=>'My team at IBM Interactive Boston was tasked to develop an accelerated vision for the online rebranding effort for a major financial institution. This vision was to include a new \'concept\' that would drive the way users perceive the brand and interact with the site, a high-level reorganization of the information architecture, and wireframes that would illustrate the vision.',
+              'where'=>'IBM Interactive, Toronto and Boston',
+              'when'=>'Sept. 2012 - Present', 
               'item_list'=>array( 
-                 'Assessed the usability and accessibility of many client applications, and provided remediation recommendations.', 
-                 'Developed policies to ensure integration of accessibility into development lifecycle.', 
-                 'Developed and delivered accessibility training to multiple clients.', 
-              ) 
+                 'Interviewed executives in order to elicit business objectives, critical success factors, target audiences, and an understanding of the new brand.',
+                 'Facilitated a client workshop with stakeholders in order to gather a prioritized list of business requirements.',
+                 'Developed user journeys and personas that were approved by both executives and other stakeholders.',
+                 'Sketched designs and created UI wireframes in Axure for desktop and mobile to communicate design concepts to stakeholders.',
+              ),
+              'item_line'=>'',
+            ), 
+       array( 
+              'title'=>'UX Researcher', 
+              'summary'=>'I was contracted by UX Guys to research the different video gaming motivations, online habits, social behaviours and lifestyles of both gamers and non-gamers. The project, for their client EA Sports, was to develop personas based on research involving 50 participants.',
+              'where'=>'UX Guys – contract, Calgary',
+              'when'=>'Mar. 2013 - Apr. 2013', 
+              'item_list'=>array( 
+                 'Conducted semi-structured interviews, using web conferencing, with 30 (of 50) participants.',
+                 'Analyzed data collected from interviews and online diaries to reveal six user types.',
+                 'Created three sports video gaming and three non-sports video gaming personas.',
+              ),
+              'item_line'=>'',
             ), 
        array (
               'title'=>'Research Assistant', 
+              'summary'=>'I was tasked to conduct a research study to assess the effectiveness and usability of Drumeba, a drumming toy designed to encourage and teach social interaction to children with autism.',
               'where'=>'University of Toronto - Dr. Rhonda McEwen, Toronto', 
               'when'=>'May 2011 - May 2012', 
               'item_list'=>array( 
-                 'Developed, managed, and executed research test plan for user trials and product evaluation. User questionnaires, journals, observer surveys, semi-structured interview questions, and videos were used.',
-              ) 
+                 'Developed and managed research test plan for user trials.',
+                 'Developed user questionnaires, journals, observer surveys, semi-structured interview guides, and videos guides.',
+                 'Conducted user trial in lab setting with 12 participants.',
+              ),
+              'item_line'=>'',
             ), 
        array (
               'title'=>'Information Architect', 
-              'where'=>'Infonaut Inc., Toronto', 
+              'summary'=>'At the time of the contract, my team was building an administrative dashboard for the latest version of Hospital Watch Live, a software suite that automates real-time infection control surveillance.',
+              'where'=>'Infonaut Inc. - contract, Toronto', 
               'when'=>'Oct. 2011 - Feb. 2012', 
               'item_list'=>array( 
-                 'Developed wireframes of the infections control UIs in Hospital Watch Live v2.0.  JAD sessions were held in order to collect feedback on prototype and gather other user requirements.',
-              ) 
+                 'Conducted focus groups with members of the development team, business teams, and end-users to collect user requirements.',
+                 'Developed iterative high-fidelity HTML prototypes and gathered feedback during JAD sessions.',
+              ),
+              'item_line'=>'',
 	),
        array (
               'title'=>'Research Assistant', 
+              'summary'=>'I developed an annotated bibliography on the topic of social media use within corporations and methods of encouraging participation.',
               'where'=>'University of Toronto - Dr. Kelly Lyons, Toronto', 
-              'when'=>'Sept. 2010 - May 2011', 
+              'when'=>'Sept. 2010 - May 2011',               
               'item_list'=>array( 
-                 'Developed an annotated bibliography on the topic of social media use within corporations and methods of encouraging participation.',
-              ) 
+              ),
+              'item_line'=>'',
 	),
-
-array (
+       array( 
+              'title'=>'Accessibility Specialist', 
+              'summary'=>'Working with the Human Ability and Accessibility Center, my team worked with various clients who wished to integrate accessibility design standards into their application development processes.',
+              'where'=>'IBM Interactive, Toronto',
+              'when'=>'Apr. 2007 - Aug. 2010', 
+              'item_list'=>array( 
+                 'Collaborated with usability teams to design accessibility into wireframes.',
+                 'Conducted usability and accessibility test with participants with disabilities and provided prioritized remediation recommendations.',
+                 'Developed policies and style guides to ensure integration of accessibility into development lifecycle.',
+                 'Developed and delivered accessibility training to multiple clients.',
+              ),
+              'item_line'=>'',
+            ), 
+       array (
               'title'=>'IT Specialist', 
+              'summary'=>'The eAMS team provides middleware and application maintenance support to various clients. Activities included requirements gathering, proposal writing, time estimating, front-end and java back-end development for multiple clients. In addition, I developed processes that the eAMS team follows for its daily activities.',
               'where'=>'IBM GBS - eApplication Maintenance Services, Toronto', 
               'when'=>'Sept. 2003 - Aug. 2006', 
               'item_list'=>array( 
-                 'Requirements gathering, proposal writing, time estimating, application architecture, training developers, front-end and java back-end development for multiple clients.',
-		'Developed processes that the eAMS GIW team follows for its daily activities.',  
-              ) 
-	),
-        array (
-              'title'=>'Webmaster', 
-              'where'=>'IBM Toronto Software Lab - CAS, Markham', 
-              'when'=>'May 2001 - Aug. 2002', 
-              'item_list'=>array( 
-                 'Collaborated with a multi-disciplinary team to define requirements, design, develop, and maintain the CASCON conference web application.  Conducted user study to enhance usability. ',  
-              ) 
-	)
-           );
+              ),
+              'item_line'=>'',
+       ),
+   );
 
-   $technical = array(
+   $skills = array(
                    array(
-                     'title'=>'',
-                     'when'=>'User Research',
+                     'title'=>'User Research',
+                     'summary'=>'',
+                     'when'=>'',
+                     'where'=>'',
+                     'item_list'=>array(),
                      'item_line'=>'Usability testing and analysis; personas; in-depth interviews; surveys; questionnaires; diary studies; electronic sampling method; rapid ethnography; participant observation; mobile probes; heuristic evaluation; participatory design; Morae'
                    ),
                    array(
-                     'title'=>'',
-                     'when'=>'UX Design',
+                     'title'=>'UX Design',
+                     'summary'=>'',
+                     'when'=>'',
+                     'where'=>'',
+                     'item_list'=>array(),
                      'item_line'=>'Lo, medium, high fidelity prototypes; wireframes (Axure, PowerPoint, HTML, Pencil); wizard-of-oz'
                    ),
                    array(
-                     'title'=>'',
-                     'when'=>'Accessibility',
+                     'title'=>'Accessibility',
+                     'summary'=>'',
+                     'when'=>'',
+                     'where'=>'',
+                     'item_list'=>array(),
                      'item_line'=>'Accessibility guidelines; JAWS; AIS; Webking 6.0; IBM aDesigner; HiSoft AccVerify; CapScribe'
                    ),
                    array(
-                     'title'=>'',
-                     'when'=>'Programming',
+                     'title'=>'Programming',
+                     'summary'=>'',
+                     'when'=>'',
+                     'where'=>'',
+                     'item_list'=>array(),
                      'item_line'=>'J2EE; Java; HTML; CSS; SQL; DB2; Eclipse; Hibernate v3.2.6; Apache; Android
 Framework'
                    )
@@ -89,13 +139,20 @@ Framework'
 
    $publications = array(
                       array(
-                         'title'=>'',
-                         'when'=>'2012',
+                         'title'=>'2012',
+                         'when'=>'',
+                         'summary'=>'',
+                         'when'=>'',
+                         'where'=>'',
+                         'item_list'=>array(),
                          'item_line'=>'Cober, R., Au, O., Son, J. (2012). Using a participatory approach to design a technology-enhanced museum tour for visitors who are blind. In <i>Proceedings of the 2012 iConference (iConference \'12).</i> ACM, New York, NY, USA, 592-594.</i>'
                       ),
                       array(
-                         'title'=>'',
-                         'when'=>'2009',
+                         'title'=>'2009',
+                         'when'=>'',
+                         'summary'=>'',
+                         'where'=>'',
+                         'item_list'=>array(),
                          'item_line'=>'Au, O., Curtis-Davidson, B. (2009). Designing & Developing for Accessibility Throughout the Life-Cycle. In <i>Proceedings of CSUN Annual International Technology and Persons with Disabilities Conference.</i>',
                    )
                 );
@@ -103,52 +160,50 @@ Framework'
    $education = array(
                    array(
                       'title'=>'Master of Information',
+                      'summary'=>'',
                       'when'=>'Sept. 2010 - Present',
+                      'where'=>'',
+                      'item_list'=>array(),
                       'item_line'=>'University of Toronto, Toronto, Ontario'
                    ),
                    array(
                      'title'=>'Bachelor of Science in Computer Science',
+                     'summary'=>'',
+                     'where'=>'',
                      'when'=>'2003',
+                     'item_list'=>array(),
                      'item_line'=>'University of Calgary, Calgary, Alberta'
                    )
                 );
 
     $ps = array(
             array(
-               'title'=>'',
-               'when'=>'Things I love',
+               'title'=>'Things I love',
+               'summary'=>'',
+               'when'=>'',
+               'where'=>'',                    
+               'item_list'=>array(),
                'item_line'=>'Traveling; hiking; skiing; scrabble; board games; high tea; piano; whistling'
             )
           );
 
    $all = array(
+      'Objective'=>$objective,
       'Work'=>$work,
       'Education'=>$education,
-      'Skills'=>$technical,
+      'Skills'=>$skills,
       'Publications'=>$publications,
       'P.S.'=>$ps
    );
 ?>
 <div class="resume">
-   <div class="resume_item">
-     <div class="resume_lhc" style="width: 100%; margin-top: 5px;">
-Objective     
-     </div>
-     <div class="resume_rhc" style="width: 100%;">
-I aim to design experiences that better reflect the real practices and needs of people by uncovering
-how technologies are used in everyday life.
-     </div>
-   </div>
-
 <?
 $all_keys = array_keys($all);
 for ($k = 0; $k < count($all_keys); $k++){
+   $section = $all_keys[$k];
    $coll = $all[ $all_keys[$k] ];
 ?>
    <div class="resume_item">
-     <div class="resume_lhc">
-        <? echo $all_keys[$k];?>
-     </div> 
      <div class="resume_rhc"
           style='width: 100%; float:clear;'
      >
@@ -157,15 +212,31 @@ for ($k = 0; $k < count($all_keys); $k++){
       $it = $coll[$i];
 ?>
       <div class="work_item">
-            <div class="resume_when"><? echo $it['when'] ?></div>
+            <div class="resume_section">
+<?    if ($i == 0) {
+         echo $section;
+      }
+      else{
+         echo '&nbsp';
+      }
+?>
+            </div> 
+
             <div style="float: left; width: 600px; margin: 0 0 10px 0;">
-            <span class="resume_what"><? echo $it['title'] ?></span>
-      
-            <span class="resume_where"><? if ($it['where']!='' ){echo '| '.$it['where'];} ?>
+            <span class="resume_what"><? echo $it['title'] ?></span>      
+            <span class="resume_where"><? if ($it['where']!='' ){echo '@ '.$it['where'];} ?>
             </span>
 
             <div class="resume_text">
+            <? if ($it['when'] != ''){ ?>
+            <div class="resume_when"><? echo $it['when'] ?></div>
+            <? } ?>
+            <? if ($it['summary'] != ''){ ?>
+            <div class="resume_summary"><? echo $it['summary'] ?></div>
+            <? } ?>
             <? echo $it['item_line']; ?>
+
+<? if (count($it['item_list']) > 0) { ?>
                <ul class="resume_list">
 <?
       for ($j = 0; $j < count($it['item_list']); $j++){
@@ -176,6 +247,7 @@ for ($k = 0; $k < count($all_keys); $k++){
       }
 ?>
                </ul>
+<? } ?>
             </div>
          </div>
       </div>
